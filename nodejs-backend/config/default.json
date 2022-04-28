@@ -1,7 +1,0 @@
-{
-    "app": {
-        "port": 3000,
-        "baseApiUrl": "/api",
-        "dataApiUrl": "http://api.nbp.pl/api/cenyzlota/{startDate}/{endDate}"
-    }
-}

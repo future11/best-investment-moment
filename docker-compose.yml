@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./nodejs-backend
+    image: "future11/best-investment-moment-nodejs-backend"
+    ports:
+      - "4000:4000"
+  frontend:
+    build:
+      context: ./reactjs-frontend
+    image: "future11/best-investment-moment-reactjs-frontend"
+    ports:
+      - "3000:3000"

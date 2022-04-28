@@ -1,1 +1,1 @@
-"# best-investment-moment" 
+# Best Investment Moment for Gold Price

@@ -1,6 +1,6 @@
 import supertest from 'supertest';
 
-import { app } from '../../src';
+import { app } from '../../';
 
 
 describe("GET /api/gold-price/best-investment-moment", () => {
